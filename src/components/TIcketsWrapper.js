@@ -85,6 +85,7 @@ const TIcketsWrapper = ({ setSeatDetails }) => {
             onClick={() => {
               handleSeatClicked(element);
             }}
+            data-value={element.status}
             key={element.id}
           >
             <input

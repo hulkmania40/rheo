@@ -13,26 +13,32 @@
   flex-wrap: wrap;
 
   .ticketCnt {
+    
+    flex: 10%;
+    &[data-value='Booked'] {
+      pointer-events:none;
+    }
+
+    &[data-value='Booked']:hover {
+      cursor: not-allowed;
+    }
     span {
       text-align: center;
       display: block;
       height: 40px;
       width: 40px;
-      border: 1px solid gray;
       margin: 10px;
       padding-top: 9px;
       border-radius: 4px;
 
       &[data-status='Booked'] {
         background-color: gray;
-        pointer-events: none;
       }
 
       &[data-status='Avalable'] {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       }
     }
-
     input[type='checkbox']:checked + span {
       background-color: green;
       border: 1px solid green;
