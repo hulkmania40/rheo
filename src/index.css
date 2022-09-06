@@ -1,0 +1,138 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  outline: medium none;
+  padding: 0;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+  height: 100%;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+hr {
+  border: none;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-feature-settings: 'liga', 'kern';
+  text-rendering: optimizelegibility;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  background-color: transparent;
+}
+input[type='number'].input-numbernoSpinners {
+  -moz-appearance: textfield;
+}
+input[type='number'].input-numbernoSpinners::-webkit-inner-spin-button,
+input[type='number'].input-numbernoSpinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+select,
+::-ms-clear {
+  width: 0;
+  height: 0;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #333;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #333;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #333;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #333;
+}
+body {
+  background: transparent !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'liga', 'kern';
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
