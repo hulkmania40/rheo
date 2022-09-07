@@ -1,0 +1,18 @@
+.header{
+    text-align: center;
+    color: red;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.header{
+    .dash{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+        margin-left: 20px;
+        padding: 10px;
+    }
+    span{
+        font-weight: bold;
+        margin: 10px 10px;
+    }
+}

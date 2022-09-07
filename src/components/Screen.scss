@@ -1,0 +1,35 @@
+.footer{
+    text-align: center;
+    width: 70%;
+
+    .screen{
+    border-top: 1px solid rgba(128, 128, 128, 0.473);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+    padding: 10px;
+    }
+
+    span{
+        padding: 20px;
+        align-items: center;
+        display: inline-flex;
+        padding-top: 9px;
+        border-radius: 4px;
+        .seat1{
+            font-size: 30px;
+            margin-right: 5px;
+            padding: 2px;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            color: black;
+        }
+        .seat2{
+            font-size: 30px;
+            margin-right: 5px;
+            background-color: gray;
+            padding: 2px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            border-radius: 4px;
+            color: black;
+        }
+    }
+}

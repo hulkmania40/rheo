@@ -2,6 +2,8 @@ import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import EventSeatOutlinedIcon from '@mui/icons-material/EventSeatOutlined';
 
+import './TicketsWrapper.scss';
+
 const seatArray = [
   { id: 1, status: 'Available', price: 152.56 },
   { id: 2, status: 'Booked', price: 152.56 },
@@ -78,8 +80,6 @@ const TicketsWrapper = ({ setSeatDetails }) => {
 
     setSelectedSeats(selectedSeatArray.current);
     setSeatDetails({
-      // details: test(selectedSeatDetails.current),
-      // list:arr,
       items:updatedList,
       numberOfSeats: selectedSeatDetails.current.length,
       price: selectedSeatDetails.current.reduce(
@@ -88,12 +88,6 @@ const TicketsWrapper = ({ setSeatDetails }) => {
       ),
     });
   };
-
-  // var checkedItems = checked.length
-  //   ? checked.reduce((total, item) => {
-  //       return total + ", " + item;
-  //     })
-  //   : "";
 
   return (
     <div className="ticketWraper">
