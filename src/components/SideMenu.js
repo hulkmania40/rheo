@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SideMenu = ({ seatDetails }) => {
+  console.log(seatDetails.items);
   return (
     <div className="sidemenuWrp">
       <h2>Game of Thrones</h2>

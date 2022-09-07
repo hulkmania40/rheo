@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TicketsWrapper from './TicketsWrapper';
 import SideMenu from './SideMenu';
-import './movieWrapper.scss';
+import './MovieWrapper.scss';
 
 const MovieWrapper = () => {
   const [seatDetails, setSeatDetails] = useState({});
