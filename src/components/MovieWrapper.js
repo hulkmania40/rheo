@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TIcketsWrapper from './TIcketsWrapper';
+import TicketsWrapper from './TicketsWrapper';
 import SideMenu from './SideMenu';
 import './movieWrapper.scss';
 
@@ -7,7 +7,7 @@ const MovieWrapper = () => {
   const [seatDetails, setSeatDetails] = useState({});
   return (
     <div className="container">
-      <TIcketsWrapper setSeatDetails={setSeatDetails} />
+      <TicketsWrapper setSeatDetails={setSeatDetails} />
       <SideMenu seatDetails={seatDetails} />
     </div>
   );
