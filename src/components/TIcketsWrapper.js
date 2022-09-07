@@ -70,11 +70,9 @@ const TicketsWrapper = ({ setSeatDetails }) => {
         (item) => item !== _params
       );
       updatedList.splice(checked.indexOf(_params.id), 1);
-      // console.log(updatedList);
     } else {
       selectedSeatDetails.current = [...selectedSeatDetails.current, _params];
       updatedList = [...checked, _params.id];
-      // console.log(updatedList);
     }
     setChecked(updatedList);
 
@@ -111,10 +109,8 @@ const TicketsWrapper = ({ setSeatDetails }) => {
             />
             <span data-status={element.status}><EventSeatOutlinedIcon/></span>
             <span>{element.id}</span>
-            {/* <span data-status={element.status}><EventSeatIcon/>{element.id}</span> */}
           </div>
         ))}
-        {/* <h2>checked items:{checked}</h2> */}
     </div>
   );
 };

@@ -18,20 +18,15 @@
       display: flex;
       flex-wrap: wrap;
       width: 400px;
+      
     .selectedseats{
       text-align: center;
       padding: 6px 16px;
       margin: 9px;
       border: 1px solid #00D100;
       border-radius: 5px;
-
       width: 25%;
       box-sizing: border-box;
-
-      // display: inline-block;
-      // flex-grow: 1;
-      // margin: 5px;
-      // width: calc(100% * (1/4) - 10px - 1px);
     }
   }
 

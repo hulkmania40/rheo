@@ -34,7 +34,6 @@ const SideMenu = ({ seatDetails }) => {
         </div>
       </div>
       <div className="sidemenudash"></div>
-      {/* <h3>Seats: <span>{seatDetails.numberOfSeats?seatDetails.items.join(", "):"No Seat Selected"}</span></h3> */}
       <div className="seats">
         {seatDetails.numberOfSeats ? selectedSeats : "No Seats Selected"}
       </div>
