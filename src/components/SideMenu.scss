@@ -1,47 +1,67 @@
-
 .sidemenuWrp {
-    min-width: 400px;
-    padding: 20px;
-    margin-top: 40px;
-  
-    h2,
-    h4 {
-      margin-bottom: 10px;
-    }
-  
-    .sidemenudash{
-      border-bottom: 1px solid rgba(180, 172, 172, 0.555);
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  
-    .title{
-      color: gray;
-      text-transform: uppercase;
-      margin: 10px 0px 5px 0px;
-    }
-    
-    .subtitle{
-      text-transform: capitalize;
-      font-weight: 600;
-      margin: 10px 0px 20px 0px;
-      color: black;
-    }
-  
-    .sdmnprcnt {
+  min-width: 400px;
+  padding: 20px;
+  margin-top: 40px;
+
+  h2,
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .sidemenudash{
+    border-bottom: 1px solid rgba(180, 172, 172, 0.555);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .seats{
       display: flex;
-      width: 100%;
-      justify-content: space-between;
-      align-content: center;
-      margin-bottom: 10px;
-  
-      p{
-        color: gray;
-      }
-      span{
-        font-size: 20px;
-        color: red;
-      }
+      flex-wrap: wrap;
+      width: 400px;
+    .selectedseats{
+      text-align: center;
+      padding: 6px 16px;
+      margin: 9px;
+      border: 1px solid #00D100;
+      border-radius: 5px;
+
+      width: 25%;
+      box-sizing: border-box;
+
+      // display: inline-block;
+      // flex-grow: 1;
+      // margin: 5px;
+      // width: calc(100% * (1/4) - 10px - 1px);
     }
   }
+
+  .title{
+    color: gray;
+    text-transform: uppercase;
+    margin: 10px 0px 5px 0px;
+  }
+  
+  .subtitle{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0px 20px 0px;
+    color: black;
+  }
+
+  .sdmnprcnt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 10px;
+
+    p{
+      color: gray;
+    }
+    span{
+      font-size: 20px;
+      color: red;
+    }
+  }
+}
   

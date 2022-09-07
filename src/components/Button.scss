@@ -1,0 +1,14 @@
+button{
+    text-align: center;
+    background-color: rgba(180, 172, 172, 0.555);
+    color: black;
+    width: 95%;
+    height: 40px;
+    border: none;
+    margin: 8px;
+    border-radius: 4px;
+    &[color='Orange'] {
+        background-color: orange;
+        color: white;
+      }
+}
